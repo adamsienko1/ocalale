@@ -7,13 +7,44 @@ body {
     background-color: #b60038;
     height: 100vh;
 }
-#header .header-main{
+
+#header .header-main {
     position: absolute;
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
     color: #fff;
+    font-family: 'Raleway', sans-serif;
 }
+
+#header .header-main h2 {
+    font-size: 30px;
+}
+
+#header .header-main h1 {
+    font-size: 130px;
+    font-weight: 900;
+}
+
+#header .header-main p {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+#header .header-main a {
+    color: black;
+    font-weight: 900;
+    font-size: 18px;
+    border: solid 7px;
+    padding: 7px;
+}
+
+#header .header-main a img {
+    padding-left: 8px;
+    padding-right: 8px;
+    
+}
+
 
 /*BLURBS*/
 
@@ -22,31 +53,61 @@ body {
 }
 
 #blurbs .blurbs-main .row {
-    background-color:  #fff;
-    margin: 40px;
+    background-color: #fff;
+    margin: 80px;
     padding: 35px;
+    position: relative;
 }
 
-#blurbs #left-blurb{
-    border-right-style: dotted; 
+#blurbs .blurbs-main .row img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -36px;
+}
+
+#blurbs #left-blurb {
+    border-right-style: dotted;
     border-right-width: 2px;
 }
 
 #blurbs .inner-blurbs blockquote {
     border: none;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: black;
 }
 
-/*GIRLS*/
-#girls {
-	background-color: black;
-    color: #fff;    
+#blurbs .inner-blurbs blockquote footer {
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
 }
-#girls .girls-main h3 span{
+
+#blurbs .inner-blurbs blockquote footer::before {
+    content: none;
+}
+
+#blurbs .inner-blurbs blockquote footer span {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+/*GIRLS*/
+
+#girls {
+    background-color: black;
+    color: #fff;
+}
+
+#girls .girls-main h3 span {
     color: #e90038;
 }
-#girls .girls-main h3{
-    
-}
-#girls .girls-main p{
-    
-}
+
+#girls .girls-main h3 {}
+
+#girls .girls-main p {}
