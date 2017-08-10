@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#header {
+    background-color: #b60038;
+    height: 100vh;
+}
+#header .header-main{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+/*BLURBS*/
+
+#blurbs {
+    background-color: #e90038;
+}
+
+#blurbs .blurbs-main .row {
+    background-color:  #fff;
+    margin: 40px;
+    padding: 35px;
+}
+
+#blurbs #left-blurb{
+    border-right-style: dotted; 
+    border-right-width: 2px;
+}
+
+#blurbs .inner-blurbs blockquote {
+    border: none;
+}
+
+/*GIRLS*/
+#girls {
+	background-color: black;
+    color: #fff;    
+}
+#girls .girls-main h3 span{
+    color: #e90038;
+}
+#girls .girls-main h3{
+    
+}
+#girls .girls-main p{
+    
+}
