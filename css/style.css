@@ -2,17 +2,20 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-section{
-    text-align: center;  
+
+section {
+    text-align: center;
 }
 
 #header .header-main {
-    height: 100vh;
     padding: 0;
+    height: auto;
+    font-size: 0;
 }
 
 #header .header-main video {
     width: 100%;
+    height: auto;
 }
 
 #header .header-main .header-intro {
@@ -21,19 +24,20 @@ section{
     width: 100%;
     transform: translateY(-50%);
     color: #fff;
+    height: auto;
 }
 
-#header .header-main h2 {
-    font-size: 30px;
+#header .header-main .header-intro  h2 {
+    font-size: 3vw;
 }
 
 #header .header-main h1 {
-    font-size: 130px;
+    font-size: 13vw;
     font-weight: 900;
 }
 
 #header .header-main p {
-    font-size: 25px;
+    font-size: 2.5vw;
     padding-bottom: 50px;
 }
 
@@ -70,11 +74,11 @@ section{
     position: relative;
 }
 
-#blurbs .blurbs-main .row img {
+section #corner {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -36px;
+    bottom: -37px;
 }
 
 #blurbs #left-blurb {
@@ -113,6 +117,7 @@ section{
     background-color: black;
     color: #fff;
     padding: 60px;
+    position: relative;
 }
 
 #girls .girls-main h3 {
@@ -131,24 +136,32 @@ section{
 }
 
 #girls .girls-main .girls-about {
+    padding: 0 40px 0;
+}
+
+#girls .girls-main .girls-about:nth-child(2) {
     border-right-style: dotted;
-    border-right-width: 2px;
+    border-left: dotted;
+    border-width: 2px;
     border-color: #a7a6a6;
-    padding: 0 50px 0;
 }
 
-#girls .girls-main .girls-about:nth-last-child(1) {
-    border-right-style: none;
+#girls .girls-main .girls-about a {
+    color: #e90038;
+    font-weight: 900;
+    font-size: 14px;
+    text-decoration: underline;
+    margin: 0;
 }
 
-#girls .girls-main .girls-about figure {
+#girls .girls-main .girls-about {
     text-align: left;
 }
 
 #girls .girls-main .girls-about figcaption {
     font-size: 30px;
     font-weight: 900;
-    padding-top: 28px;
+    margin-top: 8px;
 }
 
 #girls .girls-main .girls-about figcaption span {
@@ -160,6 +173,7 @@ section{
     font-size: 16px;
     color: #a7a6a6;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 
@@ -169,14 +183,20 @@ section{
     max-width: 100%;
 }
 
-#about .about-main figure figcaption {
+#about .about-main h4 {
     font-size: 36px;
     font-weight: 900;
 }
 
-#about .about-main figure p {
+#about .about-main ul {
     font-size: 22px;
-    padding: 25px 60px 60px;
+    padding-bottom: 40px;
+    padding: 20px 60px 50px;
+}
+
+#about .about-main ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
 }
 
 #about .about-main a {
@@ -201,33 +221,40 @@ section{
     margin-bottom: 8px;
 }
 
+
 /*FOOTER*/
-footer{
-    margin-top: 80px; 
+
+#footer {
+    margin-top: 80px;
 }
-footer .footer-main {
+
+#footer .footer-main {
     border-top: solid 2px;
-    margin: 20px 60px ;
+    margin: 20px 60px;
     padding: 0;
 }
-footer .footer-main .row{
+
+#footer .footer-main .row {
     margin-top: 10px;
 }
-footer .footer-main .footer-left p {
+
+#footer .footer-main .footer-left p {
     font-size: 12px;
     text-align: left;
 }
-footer .footer-main .footer-left p a{
+
+#footer .footer-main .footer-left p a {
     color: black;
-    font-weight: 900;
 }
-footer .footer-main .footer-left p a:hover{
+
+#footer .footer-main .footer-left p a:hover {
     text-decoration: none;
 }
-footer .footer-main .footer-left p a:last-child{
+
+#footer .footer-main .footer-left p a:last-child {
     text-decoration: underline;
-    font-weight: 500;
 }
-footer .footer-main .footer-right figure {
+
+#footer .footer-main .footer-right figure {
     text-align: right;
 }
