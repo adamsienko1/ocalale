@@ -25,9 +25,11 @@ section {
     margin-bottom: 0;
     background-color: #e2e1e2;
 }
+
 #navbar-main ul li a:hover {
     background-color: fff;
 }
+
 #navbar-main ul li a {
     font-weight: 900;
     padding-left: 20px;
@@ -37,6 +39,7 @@ section {
 #navbar-main .container-fluid .navbar-toggle ul li:nth-child(3) {
     background-color: black;
 }
+
 #navbar-main .container-fluid .navbar-toggle ul #ocalale {
     color: #e90038;
 }
