@@ -1,0 +1,25 @@
+@media all and (min-width: 768px) {
+    #navbar-main {
+        display: none;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #blurbs .blurbs-main .row {
+        margin: 80px 30px;
+        padding: 10px;
+        text-align: center;
+    }
+    #blurbs #left-blurb {
+        border-right-style: none;
+    }
+    #girls {
+        padding: 0;
+    }
+    #girls .girls-main .girls-about {
+        text-align: center;
+    }
+    #girls .girls-main .girls-about:nth-child(2) {
+        border-style: none;
+    }
+}
