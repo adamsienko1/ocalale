@@ -1,4 +1,4 @@
-<h1>Landing page for publishing house "Otwarte" for book "Ocalale"</h1>
+<h1>Landing page for publishing house "Otwarte" for book "Ocalałe"</h1>
 
   click --> http://otwarte.eu/ocalale/
   
